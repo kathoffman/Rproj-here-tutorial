@@ -1,0 +1,24 @@
+---
+title: "here::here Example #1"
+subtitle: "WCM Biostatistics Computing Club"
+author: "Katherine Hoffman, MS"
+date: "6/4/2019"
+knit: (function(inputFile, encoding) { 
+      out_dir <- here::here("Reports");
+      out_file <- "here_with_Rmarkdown.html";
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(out_dir, out_file)) })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r read_in_data}
+# uncomment this to see it won't work, because our root directory is now the Code folder
+# read.csv("Data/Raw/cd4.csv")
+
+# but if we use here::here(), our root directory becomes where our R Project is
+read.csv(here::here("Data","Raw","cd4.csv"))
+```

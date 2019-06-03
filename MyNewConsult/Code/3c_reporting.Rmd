@@ -1,0 +1,28 @@
+---
+title: "here::here() Example #2"
+author: "Katherine Hoffman, MS"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+knit: (function(inputFile, encoding) { 
+      out_dir <- here::here("Reports");
+      sd <- format(Sys.Date(), "%Y-%m-%d");
+      out_file <- paste0("Real_Short_Report_", sd, ".html");
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(out_dir, out_file)) })
+output:
+  html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, results="asis")
+source(here::here("Code","3b_analysis.R"))
+```
+
+This is my whole analysis!
+
+```{r}
+make_scatterplot(melanoma, "age", "thickness")
+knitr::kable(counts, caption="Numbers of Patients by Status")
+```
+
