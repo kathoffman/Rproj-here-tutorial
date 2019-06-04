@@ -1,7 +1,12 @@
 # Investigating the here::here() function
 library(here)
 
+here() # returns your working directory
+
 # this is the way Jenny Bryan recommends you find files with here()
+here("Data","Raw") # returns a path to the Data/Raw folder of your working directory
+
+# read in some data
 dat <- read.csv(here("Data","Raw","cd4.csv"))
 dat
 
