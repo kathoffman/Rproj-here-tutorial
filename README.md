@@ -4,4 +4,4 @@ Requires creation of an R Project (see directions in the [slides](https://github
 
 MyNewConsult folder is a mock-up of what a consulting project directory might look like. It contains Code, Data, Output, Report, and Notes folders.
 
-After creating an R Project, run the codes in order to see ways to use `here::here()` to easily read in data, output figures and tables, and knit Rmd reports while staying organized inside the project directory folders.
+After creating an R Project, run the codes to see how `here::here()` can easily read in data, output figures and tables, and knit Rmd reports while staying organized inside the project directory folders.
