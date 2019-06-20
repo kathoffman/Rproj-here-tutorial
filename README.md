@@ -4,7 +4,7 @@
 
 [Slides from my June 2019 Weill Cornell Medicine Biostatistics Computing Club Talk](https://github.com/hoffmakl/Rproj-here-tutorial/blob/master/MyNewConsult/Notes/Rproject_here_slides.pdf)
 
-These codes require creation of an R Project to run. To do so, download this Github folder, open R Studio and click File -> New Project -> From an existing directory -> Browse -> <find wherever you saved this Github folder and click on the "MyNewConsult" folder> -> Create Project
+These codes require creation of an R Project to run. To do so, download this Github folder, open R Studio and click File -> New Project... -> Existing Directory -> Browse... -> <find wherever you saved this Github folder and click on the "MyNewConsult" folder> -> Create Project
 
 MyNewConsult folder is a mock-up of what a new project directory might look like. It contains Code, Data, Output, Report, and Notes folders.
 
