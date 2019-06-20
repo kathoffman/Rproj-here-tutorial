@@ -6,4 +6,4 @@ MyNewConsult folder is a mock-up of what a consulting project directory might lo
 
 After creating an R Project, run the codes to see how `here::here()` can easily read in data, output figures and tables, and knit Rmd reports while staying organized inside the project directory folders.
 
-Slides for my June 2019 NYC R-Ladies lightning talk can be downloaded [here](https://github.com/hoffmakl/Rproj-here-tutorial/blob/master/NYC R-Ladies Lightning Talk.pttx).
+[Slides from the 2019 NYC R-Ladies Lightning Talks](https://github.com/hoffmakl/Rproj-here-tutorial/blob/master/NYC%20R-Ladies%20Lightning%20Talk.pptx)
